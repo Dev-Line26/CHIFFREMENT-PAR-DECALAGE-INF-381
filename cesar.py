@@ -36,7 +36,7 @@ def menu():
         if choix not in{"1", "2", "3", "4"}:
             print("Choix invalide")
             continue
-        texte = input("texte :")
+       
         if choix in {"1","2"}:
             try:
                 k=int(input("cle (entier): "))
